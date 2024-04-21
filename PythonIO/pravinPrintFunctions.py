@@ -73,3 +73,12 @@ print(dummy_file.getvalue())
 print('Welcome to GeeksforGeeks Python world.!!', file=open('Testfile.txt', 'w'))
 
 """
+
+# Print in line
+# Print without newline in Python 3.x without using for loop
+
+l = [1, 2, 3, 4, 5, 6]
+
+# using * symbol prints the list
+# elements in a single line
+print(*l)
